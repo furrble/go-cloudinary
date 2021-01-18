@@ -1,8 +1,3 @@
-// Copyright 2013 Mathias Monnerville and Anthony Baillard.
-// All rights reserved.
-// Use of this source code is governed by a BSD-style
-// license that can be found in the LICENSE file.
-
 package cloudinary
 
 import (
@@ -12,7 +7,6 @@ import (
 	"net/http"
 	"net/url"
 	"strconv"
-	"github.com/qiscus/qiscus-sdk-api/api/admin/v1"
 )
 
 const (
@@ -20,10 +14,10 @@ const (
 )
 
 const (
-	pathListAllImages = "/resources/image"
-	pathListAllRaws   = "/resources/raw"
+	pathListAllImages   = "/resources/image"
+	pathListAllRaws     = "/resources/raw"
 	pathListSingleImage = "/resources/image/upload/"
-  pathListAllVideos = "/resources/video"
+	pathListAllVideos   = "/resources/video"
 )
 
 const (
