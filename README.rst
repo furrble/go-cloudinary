@@ -10,7 +10,7 @@ Installation
 
 Install the CLI tool and the library with::
 
-    go get github.com/gotsunami/go-cloudinary/cloudinary
+    go get github.com/furrble/go-cloudinary/cloudinary
 
 Usage
 -----
